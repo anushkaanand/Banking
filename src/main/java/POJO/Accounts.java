@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
+@Table(name ="accounts")
 public class Accounts
 {
     @Id
@@ -18,7 +19,7 @@ public class Accounts
     private double min_bal;
     private double trans_limit;
 
-    
+    public Accounts(){}
 
     public int getAccountID() {
         return accountID;
