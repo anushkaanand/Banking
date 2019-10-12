@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 public class AccountsSvc{
 
-    @AutoWired
+    @Autowired
     AccountRepo accountRepo;
 
     Accounts accounts;
